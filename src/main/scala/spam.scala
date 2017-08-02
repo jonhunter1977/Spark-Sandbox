@@ -3,7 +3,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * Created by jon on 28/06/17.
   */
-object spam {
+object Spam {
   def main(args: Array[String]): Unit = {
     val spamFile = "/home/jon/spark/spam-data/data/spam.csv"
 
